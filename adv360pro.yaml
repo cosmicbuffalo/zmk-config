@@ -336,89 +336,6 @@ layers:
     '', '', '', '', '', \, TAB, '', '', '', '', '&bootloader', '&macrospecr', LEFT ALT, '&caps_word', RGUI, RIGHT ALT, '&macro_spcdn', '&bootloader', '', '', '',
     '', '''', LSHFT, '', '', '', '', '&reset', '', '', HOME, '', '', PG UP, '', '', '&reset', '', '', '', '', RSHFT, '', '`', LEFT CONTROL, LEFT, RIGHT, '', '', END,
     PG DN, '', '', UP, DOWN, '[', ']', '']
-  uc:
-  - '&macro_spcf'
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - F11
-  - F12
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - '&macro_spcm'
-  - '&gresc'
-  - ''
-  - '&el_omega'
-  - '&el_phi'
-  - '&el_pi'
-  - '&el_beta'
-  - '&macro_spcl'
-  - '&macro_spcup'
-  - ''
-  - {t: '&el_lambda', type: held}
-  - '&el_upsilon'
-  - {t: '&el_psi', type: held}
-  - '&de_eszett'
-  - \
-  - TAB
-  - '&el_alpha'
-  - '&el_rho'
-  - '&el_sigma'
-  - '&el_tau'
-  - '&el_gamma'
-  - '&macrospecr'
-  - LEFT ALT
-  - '&caps_word'
-  - RGUI
-  - RIGHT ALT
-  - '&macro_spcdn'
-  - '&el_mu'
-  - '&el_nu'
-  - '&el_epsilon'
-  - '&el_iota'
-  - '&el_omikron'
-  - ''''
-  - LSHFT
-  - '&el_zeta'
-  - '&el_xi'
-  - '&el_chi'
-  - '&el_delta'
-  - '&el_theta'
-  - ''
-  - ''
-  - HOME
-  - ''
-  - ''
-  - PG UP
-  - ''
-  - ''
-  - '&el_kappa'
-  - '&el_eta'
-  - '&de_ae'
-  - '&de_oe'
-  - '&de_ue'
-  - RSHFT
-  - ''
-  - '`'
-  - LEFT CONTROL
-  - LEFT
-  - RIGHT
-  - ''
-  - ''
-  - END
-  - PG DN
-  - ''
-  - ''
-  - UP
-  - DOWN
-  - '['
-  - ']'
-  - ''
   mouse: ['&macro_spcf', F1, F2, F3, F4, F5, F11, F12, F6, F7, F8, F9, F10, '&macro_spcm', '&gresc', '', '', '', '', '', '&macro_spcl', '&macro_spcup', '', '&mwh
       SCROLL_VERT(-100)', '&mmv MOVE_VERT(-1250)', '&mwh SCROLL_VERT(100)', '', \, TAB, '', '', '', '', '', '&macrospecr', LEFT ALT, '&caps_word', RGUI, RIGHT ALT,
     '&macro_spcdn', '', '&mmv MOVE_HOR(-1250)', '&mmv MOVE_VERT(1250)', '&mmv MOVE_HOR(1250)', '', '''', LSHFT, '', '', '', '', '', '', '', HOME, '', '', PG UP, '',
@@ -478,12 +395,6 @@ combos:
 - p: [62, 63]
   k: '}'
   l: [nav]
-- p: [23, 25]
-  k: {t: uc, h: sticky}
-  l: [base, nav, num]
-- p: [23, 24, 25]
-  k: '&sls 0'
-  l: [base, nav, num]
 - p: [16, 30]
   k: '@'
   l: [base, nav, num]
