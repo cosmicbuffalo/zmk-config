@@ -11,7 +11,7 @@ Corneish Zen and an Advantage 360 pro.
 - the base keymap and combo setup are independent of the physical location of
   keys and are re-used for multiple keyboards. The configuration is fit onto
   larger boards by padding it via a modular structure of "extra keys"
-- ["timer-less" homerow mods](#timeless-homerow-mods) 
+- ["timer-less" homerow mods](#timeless-homerow-mods)
 - combos replacing the symbol layer
 - smart numbers and smart mouse layers that automatically toggle off when done
 - sticky shift on right thumb, double-tap (or shift + tap)[^1] activates caps-word
@@ -147,7 +147,7 @@ over accessing layers that involve lateral thumb movements to be activated, espe
 when switching between different layers in rapid succession.
 
 One common concern about overloading the layout with combos is that they lead to
-misfires. Fortunately, the above-mentioned PR #1387, also adds a `global-quick-tap` option 
+misfires. Fortunately, the above-mentioned PR #1387, also adds a `global-quick-tap` option
 for combos, which in my experience all but completely eliminates the problem -- even
 when rolling keys on the home row!
 
@@ -177,18 +177,18 @@ Inspired by Jonas Hietala's
 for QMK, I implemented my own version of [Smart-layers for
 ZMK](https://github.com/zmkfirmware/zmk/pull/1451). It is triggered via a
 single tap on "Smart-Num". Numword continues to be activated as long as I
-type numbers, and deactivates automatically on any other keypress (holding it activates 
+type numbers, and deactivates automatically on any other keypress (holding it activates
 a non-sticky num layer).
 
 After using Numword for about 6 months now, I have been overall very happy with it. When
-typing single digits, it effectively is a sticky-layer but with the added advantage that 
-I can also use it to type multiple digits. 
+typing single digits, it effectively is a sticky-layer but with the added advantage that
+I can also use it to type multiple digits.
 
 The main downside is that if a sequence of numbers is *immediately* followed by any of the
 letters on which my numpad is located (WFPRSTXCD), then the automatic deactivation won't
 work. But this is rare -- most number sequences are terminated by `space`, `return` or some form
-of punctuation/delimination. To deal with the rare cases where they aren't, there is a 
-`CANCEL` key on the navigation-layer that deactivates Numword, Capsword and Smart-mouse. 
+of punctuation/delimination. To deal with the rare cases where they aren't, there is a
+`CANCEL` key on the navigation-layer that deactivates Numword, Capsword and Smart-mouse.
 (It also toggles off when pressing `Numword` again, but I find it cognitively easier to
 have a dedicated "off-switch" than keeping track of which modes are currently active.)
 
@@ -207,7 +207,7 @@ sticky-shift (used to capitalize alphas), holding activates a regular shift, and
 double-tapping (or equivalently shift + tap) activates ZMK's Caps-word behavior.
 
 One minor technical detail: While it would be possible to implement the double-tap functionality
-as a tap-dance, this would add a delay when using single taps. To avoid the delays, I 
+as a tap-dance, this would add a delay when using single taps. To avoid the delays, I
 instead implemented the double-tap functionality as a mod-morph.
 
 ##### Multi-purpose Navigation cluster
