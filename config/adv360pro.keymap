@@ -332,7 +332,3 @@ ZMK_LAYER(mouse,
 
 /* vim: set ft=cpp tw=174: */
 
-
-/* use urob's layout for Advantage 360 pro */
-/ { chosen { zmk,matrix_transform = &urobs_transform; }; };
-
