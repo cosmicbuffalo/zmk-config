@@ -35,7 +35,7 @@ layers:
   - {t: S, h: LCTRL}
   - {t: T, h: LSHFT}
   - G
-  - '&macrospecr'
+  - '&macro_specr'
   - LEFT ALT
   - '&caps_word'
   - RGUI
@@ -118,7 +118,7 @@ layers:
   - {t: LCTRL, h: sticky}
   - {t: LSHFT, h: sticky}
   - ''
-  - '&macrospecr'
+  - '&macro_specr'
   - LEFT ALT
   - '&caps_word'
   - RGUI
@@ -201,7 +201,7 @@ layers:
   - F5
   - F6
   - ''
-  - '&macrospecr'
+  - '&macro_specr'
   - LEFT ALT
   - '&caps_word'
   - RGUI
@@ -284,7 +284,7 @@ layers:
   - {t: '5', h: LCTRL}
   - {t: '6', h: LSHFT}
   - ''
-  - '&macrospecr'
+  - '&macro_specr'
   - LEFT ALT
   - '&caps_word'
   - RGUI
@@ -333,11 +333,11 @@ layers:
   - ']'
   - ''
   sys: ['&macro_spcf', F1, F2, F3, F4, F5, F11, F12, F6, F7, F8, F9, F10, '&macro_spcm', '&gresc', BT 0, BT 1, BT 2, BT 3, BT CLR, '&macro_spcl', '&macro_spcup',
-    '', '', '', '', '', \, TAB, '', '', '', '', '&bootloader', '&macrospecr', LEFT ALT, '&caps_word', RGUI, RIGHT ALT, '&macro_spcdn', '&bootloader', '', '', '',
+    '', '', '', '', '', \, TAB, '', '', '', '', '&bootloader', '&macro_specr', LEFT ALT, '&caps_word', RGUI, RIGHT ALT, '&macro_spcdn', '&bootloader', '', '', '',
     '', '''', LSHFT, '', '', '', '', '&reset', '', '', HOME, '', '', PG UP, '', '', '&reset', '', '', '', '', RSHFT, '', '`', LEFT CONTROL, LEFT, RIGHT, '', '', END,
     PG DN, '', '', UP, DOWN, '[', ']', '']
   mouse: ['&macro_spcf', F1, F2, F3, F4, F5, F11, F12, F6, F7, F8, F9, F10, '&macro_spcm', '&gresc', '', '', '', '', '', '&macro_spcl', '&macro_spcup', '', '&mwh
-      SCROLL_VERT(-100)', '&mmv MOVE_VERT(-1250)', '&mwh SCROLL_VERT(100)', '', \, TAB, '', '', '', '', '', '&macrospecr', LEFT ALT, '&caps_word', RGUI, RIGHT ALT,
+      SCROLL_VERT(-100)', '&mmv MOVE_VERT(-1250)', '&mwh SCROLL_VERT(100)', '', \, TAB, '', '', '', '', '', '&macro_specr', LEFT ALT, '&caps_word', RGUI, RIGHT ALT,
     '&macro_spcdn', '', '&mmv MOVE_HOR(-1250)', '&mmv MOVE_VERT(1250)', '&mmv MOVE_HOR(1250)', '', '''', LSHFT, '', '', '', '', '', '', '', HOME, '', '', PG UP, '',
     '', '', '', '', '', '', RSHFT, '', '`', LEFT CONTROL, LEFT, RIGHT, '', '', END, PG DN, '&mkp MB2', '&mkp MB1', UP, DOWN, '[', ']', '']
 combos:
