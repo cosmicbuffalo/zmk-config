@@ -187,7 +187,7 @@ ZMK_BEHAVIOR(qexcl, mod_morph,
     mods = <(MOD_LSFT|MOD_RSFT)>;
 )
 
-// tap: space | shift + tap: underscore -> space -> sticky shift | hold: activate layer
+// tap: space | shift + tap: underscore | hold: activate layer
 ZMK_BEHAVIOR(lt_spc, hold_tap,
     flavor = "balanced";
     tapping-term-ms = <200>;
@@ -195,13 +195,8 @@ ZMK_BEHAVIOR(lt_spc, hold_tap,
     bindings = <&mo>, <&spc_morph>;
 )
 ZMK_BEHAVIOR(spc_morph, mod_morph,
-    bindings = <&kp SPACE>, <&und_spc>;
+    bindings = <&kp SPACE>, <&kp UNDERSCORE>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
-)
-ZMK_BEHAVIOR(und_spc, macro,
-    wait-ms = <0>;
-    tap-ms = <5>;
-    bindings = <&kp UNDERSCORE &kp SPACE &sk LSHFT>;
 )
 
 // tap: backspace | lshft + tap: delete | rshft + tap: shift-delete
