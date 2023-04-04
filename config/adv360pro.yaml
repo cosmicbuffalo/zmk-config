@@ -1,0 +1,503 @@
+layout: {qmk_keyboard: ergodox_ez/base, qmk_layout: LAYOUT_ergodox_pretty}
+layers:
+  base:
+  - '='
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F11
+  - F12
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - '-'
+  - TAB
+  - Q
+  - W
+  - F
+  - P
+  - B
+  - ''
+  - ''
+  - J
+  - L
+  - U
+  - Y
+  - ''''
+  - \
+  - ESC
+  - {t: A, h: LGUI}
+  - {t: R, h: LALT}
+  - {t: S, h: LCTRL}
+  - {t: T, h: LSHFT}
+  - G
+  - ''
+  - ''
+  - M
+  - {t: N, h: RSHFT}
+  - {t: E, h: LCTRL}
+  - {t: I, h: LALT}
+  - {t: O, h: LGUI}
+  - ''''
+  - LSHFT
+  - Z
+  - X
+  - C
+  - D
+  - V
+  - K
+  - H
+  - '&comma_morph'
+  - '&dot_morph'
+  - '&qexcl'
+  - RSHFT
+  - ''
+  - '`'
+  - CAPS
+  - LEFT
+  - RIGHT
+  - UP
+  - DOWN
+  - '&mwh SCROLL_VERT(-100)'
+  - '&mwh SCROLL_VERT(100)'
+  - ''
+  - LCTRL
+  - LALT
+  - LGUI
+  - RCTRL
+  - {t: '0', h: nav}
+  - {t: RET, h: fn}
+  - HOME
+  - PG UP
+  - {t: '0', h: num}
+  - '&smart_shft'
+  - END
+  - PG DN
+  nav:
+  - '='
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F11
+  - F12
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - '-'
+  - TAB
+  - ''
+  - ''
+  - LS(TAB)
+  - '&swapper'
+  - ''
+  - ''
+  - ''
+  - PG UP
+  - {t: BSPC, h: LC(BSPC)}
+  - {t: UP, h: LC(HOME)}
+  - {t: DEL, h: LC(DEL)}
+  - ''
+  - \
+  - ESC
+  - {t: LGUI, h: sticky}
+  - {t: LALT, h: sticky}
+  - {t: LCTRL, h: sticky}
+  - {t: LSHFT, h: sticky}
+  - ''
+  - ''
+  - ''
+  - PG DN
+  - {t: LEFT, h: base}
+  - {t: DOWN, h: LC(END)}
+  - {t: RIGHT, h: base}
+  - RET
+  - ''''
+  - LSHFT
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - INS
+  - TAB
+  - <
+  - '>'
+  - ''
+  - RSHFT
+  - ''
+  - '`'
+  - CAPS
+  - LEFT
+  - RIGHT
+  - UP
+  - DOWN
+  - '&mwh SCROLL_VERT(-100)'
+  - '&mwh SCROLL_VERT(100)'
+  - ''
+  - LCTRL
+  - LALT
+  - LGUI
+  - RCTRL
+  - {type: held}
+  - ''
+  - HOME
+  - PG UP
+  - ''
+  - CANCEL
+  - END
+  - PG DN
+  fn:
+  - '='
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F11
+  - F12
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - '-'
+  - TAB
+  - F12
+  - F7
+  - F8
+  - F9
+  - ''
+  - ''
+  - ''
+  - ''
+  - PREV
+  - VOL UP
+  - NEXT
+  - '&win_sleep'
+  - \
+  - ESC
+  - F11
+  - F4
+  - F5
+  - F6
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: LG(LC(LEFT)), h: RSHFT}
+  - {t: VOL DN, h: LCTRL}
+  - {t: LG(LC(RIGHT)), h: LALT}
+  - ''
+  - ''''
+  - LSHFT
+  - F10
+  - F1
+  - F2
+  - F3
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - RSHFT
+  - ''
+  - '`'
+  - CAPS
+  - LEFT
+  - RIGHT
+  - UP
+  - DOWN
+  - '&mwh SCROLL_VERT(-100)'
+  - '&mwh SCROLL_VERT(100)'
+  - ''
+  - LCTRL
+  - LALT
+  - LGUI
+  - RCTRL
+  - ''
+  - {type: held}
+  - HOME
+  - PG UP
+  - MUTE
+  - PP
+  - END
+  - PG DN
+  num:
+  - '='
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F11
+  - F12
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - '-'
+  - TAB
+  - ''
+  - '7'
+  - '8'
+  - '9'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - \
+  - ESC
+  - {t: '0', h: LGUI}
+  - {t: '4', h: LALT}
+  - {t: '5', h: LCTRL}
+  - {t: '6', h: LSHFT}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''''
+  - LSHFT
+  - ''
+  - '1'
+  - '2'
+  - '3'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - RSHFT
+  - ''
+  - '`'
+  - CAPS
+  - LEFT
+  - RIGHT
+  - UP
+  - DOWN
+  - '&mwh SCROLL_VERT(-100)'
+  - '&mwh SCROLL_VERT(100)'
+  - ''
+  - LCTRL
+  - LALT
+  - LGUI
+  - RCTRL
+  - ''
+  - ''
+  - HOME
+  - PG UP
+  - {type: held}
+  - ''
+  - END
+  - PG DN
+  sys: ['=', F1, F2, F3, F4, F5, F11, F12, F6, F7, F8, F9, F10, '-', TAB, BT 0, BT 1, BT 2, BT 3, BT CLR, '', '', '', '', '', '', '', \, ESC, '', '', '', '', '&bootloader',
+    '', '', '&bootloader', '', '', '', '', '''', LSHFT, '', '', '', '', '&reset', '&reset', '', '', '', '', RSHFT, '', '`', CAPS, LEFT, RIGHT, UP, DOWN, '&mwh SCROLL_VERT(-100)',
+    '&mwh SCROLL_VERT(100)', '', LCTRL, LALT, LGUI, RCTRL, '', '', HOME, PG UP, '', '', END, PG DN]
+  uc:
+  - '='
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F11
+  - F12
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - '-'
+  - TAB
+  - ''
+  - '&el_omega'
+  - '&el_phi'
+  - '&el_pi'
+  - '&el_beta'
+  - ''
+  - ''
+  - ''
+  - {t: '&el_lambda', type: held}
+  - '&el_upsilon'
+  - {t: '&el_psi', type: held}
+  - '&de_eszett'
+  - \
+  - ESC
+  - '&el_alpha'
+  - '&el_rho'
+  - '&el_sigma'
+  - '&el_tau'
+  - '&el_gamma'
+  - ''
+  - ''
+  - '&el_mu'
+  - '&el_nu'
+  - '&el_epsilon'
+  - '&el_iota'
+  - '&el_omikron'
+  - ''''
+  - LSHFT
+  - '&el_zeta'
+  - '&el_xi'
+  - '&el_chi'
+  - '&el_delta'
+  - '&el_theta'
+  - '&el_kappa'
+  - '&el_eta'
+  - '&de_ae'
+  - '&de_oe'
+  - '&de_ue'
+  - RSHFT
+  - ''
+  - '`'
+  - CAPS
+  - LEFT
+  - RIGHT
+  - UP
+  - DOWN
+  - '&mwh SCROLL_VERT(-100)'
+  - '&mwh SCROLL_VERT(100)'
+  - ''
+  - LCTRL
+  - LALT
+  - LGUI
+  - RCTRL
+  - ''
+  - ''
+  - HOME
+  - PG UP
+  - ''
+  - ''
+  - END
+  - PG DN
+  mouse: ['=', F1, F2, F3, F4, F5, F11, F12, F6, F7, F8, F9, F10, '-', TAB, '', '', '', '', '', '', '', '', '&mwh SCROLL_VERT(-100)', '&mmv MOVE_VERT(-1250)', '&mwh
+      SCROLL_VERT(100)', '', \, ESC, '', '', '', '', '', '', '', '', '&mmv MOVE_HOR(-1250)', '&mmv MOVE_VERT(1250)', '&mmv MOVE_HOR(1250)', '', '''', LSHFT, '', '',
+    '', '', '', '', '', '', '', '', RSHFT, '', '`', CAPS, LEFT, RIGHT, UP, DOWN, '&mwh SCROLL_VERT(-100)', '&mwh SCROLL_VERT(100)', '', LCTRL, LALT, LGUI, RCTRL,
+    '', '', HOME, PG UP, '&mkp MB2', '&mkp MB1', END, PG DN]
+combos:
+- p: [16, 17]
+  k: ESC
+  l: [base, nav, num]
+- p: [17, 18]
+  k: RETURN
+  l: [base, nav, num]
+- p: [16, 18]
+  k: '&smart_mouse'
+  l: [base, nav, num]
+- p: [30, 31]
+  k: {t: TAB, h: LA(LCTRL)}
+  l: [base, nav, num]
+- p: [31, 32]
+  k: {t: '0', h: LS(LCTRL)}
+  l: [base, nav, num]
+- p: [44, 46]
+  k: LC(X)
+  l: [base, nav, num]
+- p: [44, 45]
+  k: LC(INS)
+  l: [base, nav, num]
+- p: [45, 46]
+  k: LS(INS)
+  l: [base, nav, num]
+- p: [23, 24]
+  k: BSPC
+  l: [base, nav, num]
+- p: [24, 25]
+  k: DEL
+  l: [base, nav, num]
+- p: [37, 38]
+  k: {t: (, h: RS(LCTRL)}
+  l: [base, num]
+- p: [38, 39]
+  k: {t: ), h: LA(LCTRL)}
+  l: [base, num]
+- p: [37, 38]
+  k: <
+  l: [nav]
+- p: [38, 39]
+  k: '>'
+  l: [nav]
+- p: [49, 50]
+  k: '['
+  l: [base, num]
+- p: [50, 51]
+  k: ']'
+  l: [base, num]
+- p: [49, 50]
+  k: '{'
+  l: [nav]
+- p: [50, 51]
+  k: '}'
+  l: [nav]
+- p: [23, 25]
+  k: {t: uc, h: sticky}
+  l: [base, nav, num]
+- p: [23, 24, 25]
+  k: '&sls 0'
+  l: [base, nav, num]
+- p: [16, 30]
+  k: '@'
+  l: [base, nav, num]
+- p: [17, 31]
+  k: '#'
+  l: [base, nav, num]
+- p: [18, 32]
+  k: $
+  l: [base, nav, num]
+- p: [19, 33]
+  k: '%'
+  l: [base, nav, num]
+- p: [30, 44]
+  k: '`'
+  l: [base, nav, num]
+- p: [31, 45]
+  k: \
+  l: [base, nav, num]
+- p: [32, 46]
+  k: '='
+  l: [base, nav, num]
+- p: [33, 47]
+  k: '~'
+  l: [base, nav, num]
+- p: [22, 36]
+  k: ^
+  l: [base, nav, num]
+- p: [23, 37]
+  k: +
+  l: [base, nav, num]
+- p: [24, 38]
+  k: '*'
+  l: [base, nav, num]
+- p: [25, 39]
+  k: '&'
+  l: [base, nav, num]
+- p: [36, 48]
+  k: _
+  l: [base, nav, num]
+- p: [37, 49]
+  k: '-'
+  l: [base, nav, num]
+- p: [38, 50]
+  k: /
+  l: [base, nav, num]
+- p: [39, 51]
+  k: '|'
+  l: [base, nav, num]
